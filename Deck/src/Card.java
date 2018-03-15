@@ -1,14 +1,70 @@
+import java.util.Arrays;
 
 public class Card 
 {
-	public abstract class Deck()
+	private String ranks;
+	private String suits;
+	private int value;
+	
+	public Card(String ranks, String suits, int value)
 	{
-		private String[] ranks;
-		pr
+		this.ranks = ranks;
+		this.suits = suits;
+		this.value = value;
+	}
+
+	
+	public String getRanks() {
+		return ranks;
+	}
+
+
+	public void setRanks(String ranks) {
+		this.ranks = ranks;
+	}
+
+
+	public String getSuits() {
+		return suits;
+	}
+
+
+	public void setSuits(String suits) {
+		this.suits = suits;
+	}
+
+
+	public int getValue() {
+		return value;
+	}
+
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+
+	public boolean equals(Card otherCard)
+	{
+		instanceOf instance = new instanceOf(Card.getvalue());
+		Card instance 2
+		if(Card.getValue()==otherCard.getValue())
+		{
+			return true;
+		}
+		
+		else
+		return false;
 	}
 	
-	public Deck(String[] ranks, String[] suits, int[] value)
+	public instanceOf(int value)
 	{
-		for(int i=0;i<ranks.length; i++)
+		this.value = value;
 	}
+	
+	public String toString() {
+		return "Card [getRanks()=" + getRanks() + ", getSuits()=" + getSuits() + ", getValue()=" + getValue() + "]";
+	}
+	
+	
 }
