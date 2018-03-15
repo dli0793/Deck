@@ -7,5 +7,5 @@ public class Deck
 		{
 			unDealt.add(new Card(ranks[i],suits[j],value[i]));
 		}
-	}
+	}z
 }

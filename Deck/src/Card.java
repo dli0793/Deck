@@ -50,7 +50,7 @@ public class Card
 		Card instance 2
 		if(Card.getValue()==otherCard.getValue())
 		{
-			return true;
+			return true
 		}
 		
 		else
