@@ -7,12 +7,12 @@ public class DeckTester
 		String [] suits = {"Diamonds", "Clubs", "Hearts", "Spades"};
 		int [] pointValues = {1,2,3,4,5,6,7,8,9,10,11,12,13};
 		
-		Deck z = new Deck(ranks, suits, pointValues);
-		z.shuffler();
+		Deck x = new Deck(ranks, suits, pointValues);
+		x.shuffler();
 
 		for(int i = 0; i < 52; i++) 
 		{
-			z.deal();
+			x.deal();
 		}
 		
 		System.out.print(z);
