@@ -1,3 +1,6 @@
+//Daniel Li
+//Lab 4.1
+
 import java.util.Arrays;
 
 public class Card 
@@ -46,21 +49,13 @@ public class Card
 
 	public boolean equals(Card otherCard)
 	{
-		instanceOf instance = new instanceOf(Card.getvalue());
-		Card instance 2
-		if(Card.getValue()==otherCard.getValue())
-		{
-			return true
-		}
+		if (Card.getValue()==otherCard.getValue())
+		return true;
 		
 		else
 		return false;
 	}
 	
-	public instanceOf(int value)
-	{
-		this.value = value;
-	}
 	
 	public String toString() {
 		return "Card [getRanks()=" + getRanks() + ", getSuits()=" + getSuits() + ", getValue()=" + getValue() + "]";
